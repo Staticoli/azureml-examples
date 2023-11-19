@@ -30,7 +30,7 @@ class GitChange:
 
 def parse_git_diff_tree_output(output: str) -> List[GitDiffTreeRecord]:
     """Parses the output of `git diff-tree` as described in the "Raw Output" section
-    of the man page
+    of the main page
     """
 
     def make_record(line: str) -> GitDiffTreeRecord:
